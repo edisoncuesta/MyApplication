@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.toshiba1.myapplication.taller1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/relativeLayout">
+
+        <RelativeLayout
+            android:id="@+id/rl_section1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/iv_imagenprofile"
+                android:layout_width="3750dp"
+                android:layout_height="175dp"
+                android:background="@drawable/foto"
+                android:layout_centerHorizontal="true"/>
+            <TextView
+                android:id="@+id/tv_titleName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Johnny Depp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_below="@id/iv_imagenprofile"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prague, Czech Republic"
+                android:textSize="17sp"
+                android:layout_below="@+id/tv_titleName"
+                android:layout_alignParent="true"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl_section1">
+
+            <TextView
+                android:id="@+id/tv_column1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="42"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true" />
+            <TextView
+                android:id="@+id/tv_subcolumn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stories"
+                android:textSize="16sp"
+                android:layout_below="@id/tv_column1" />
+
+            <TextView
+                android:id="@+id/tv_column2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="512"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+
+            <TextView
+                android:id="@+id/tv_subcolumn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="follwers"
+                android:textSize="16sp"
+                android:layout_below="@id/tv_column2"
+                android:layout_centerHorizontal="true"/>
+            <TextView
+                android:id="@+id/tv_column3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="284"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true" />
+
+            <TextView
+                android:id="@+id/tv_subcolumn3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="following"
+                android:textSize="16sp"
+                android:layout_below="@id/tv_column3"
+                android:layout_alignParentRight="true"/>
+
+
+        </RelativeLayout>
+
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_section2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
